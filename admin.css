@@ -1,0 +1,50 @@
+body {
+    font-family: Arial, sans-serif;
+    max-width: 700px;
+    margin: 50px auto;
+    padding: 0 20px;
+    background-color: #f8f9fa;
+}
+
+h1 {
+    color: #343a40;
+    text-align: center;
+}
+
+.menu {
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.menu a {
+    padding: 14px;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 6px;
+    text-align: center;
+    font-weight: bold;
+    transition: background-color 0.2s;
+}
+
+.menu a:hover {
+    background-color: #0056b3;
+}
+
+.logout {
+    margin-top: 40px;
+    display: block;
+    padding: 12px;
+    background-color: #007bff;
+    color: white;
+    text-align: center;
+    border-radius: 6px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.logout:hover {
+    background-color: #0056b3;
+}
